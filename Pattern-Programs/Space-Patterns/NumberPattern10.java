@@ -4,7 +4,7 @@
 //   45
 //    5    
      
-class NumberPattern9 {
+class NumberPattern10 {
     public static void main(String[] args) {
         int n = 5; 
 
