@@ -14,7 +14,7 @@ class Pattern6 {
 	    {
                 System.out.print(" ");
             }
-            for (int j = i; j <= n; j++) 
+            for (int j = 1; j <= n; j++) 
 	    {
                 System.out.print((char)(j+96));
             }
