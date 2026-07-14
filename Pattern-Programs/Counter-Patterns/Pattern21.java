@@ -1,24 +1,25 @@
-// 15      10      6       3       1
-// 14      9       5       2
-// 13      8       4
-// 12      7
-// 11
-class Pattern20
+// 1   3   6   10  15
+// 2   5   9   14
+// 4   8   13    
+// 7   12 
+// 11 
+
+class Pattern21
 {
     public static void main(String Args[])
     {
         int n = 5;
-        int count = (n*(n+1))/2 ;
+        int count = 1;
         for(int i = 1; i <= n; i++)
         {
             int c = count;
-            for(int j = n; j >= i; j--)
+            for(int j = i; j <= n; j++)
             {
                 System.out.print(c + "\t");
-                c -= j; 
+                c += j+1; 
             }   
         System.out.println( ); 
-        count --;   
+        count += i;   
         }    
     }
 }
