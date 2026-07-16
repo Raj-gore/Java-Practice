@@ -2,7 +2,7 @@
 // Bl   Eh   Ie   Nc
 // Dm   Hi   Mf
 // Gn   Lj
-// K0
+// Ko
 
 class Practice1
 {
