@@ -21,7 +21,7 @@ class Pattern1
             {
                 for(int j = i; j < n; j++)
                     System.out.print( );
-                for(int i = i; i >= 1; i--)
+                for(int j = i; j >= 1; j--)
                     System.out.print("*");
             } 
             else  
