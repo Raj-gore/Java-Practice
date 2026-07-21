@@ -1,13 +1,13 @@
 /* 
  
     A
-   bb
-  CCC
- dddd
-EEEEE
- dddd
-  CCC
-   bb
+   Ab
+  AbC
+ AbCd
+AbCdE
+ AbCd
+  AbC
+   Ab
     A
  
  */
