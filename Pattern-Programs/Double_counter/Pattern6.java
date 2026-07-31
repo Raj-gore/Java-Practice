@@ -1,10 +1,10 @@
 /*
                 EO
             IJ  DN
-            HI  CM
-        LF  GH  BL
+        LF  HI  CM
     NL  KE  GH  BL
 OA  MB  JD  FG  AK
+
 */
 
  class Pattern6
