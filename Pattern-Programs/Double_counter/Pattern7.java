@@ -1,10 +1,10 @@
 /*
 
-OO  NJ  LF  IC  EA
-MN  KI  HE  DB
-JM  GH  CD  
-FL  BG  
-AK
+Ea  Db  Cd  Bg  Ak  
+Ic  He  Gh  Fi
+Lf  Ki  Jm
+Nj  Mn
+Oo
 
 */
 
@@ -13,23 +13,23 @@ AK
     public static void main(String args[])
     {
         int n = 5;
-        int count1 = n*(n+1)/2;
-        int count2 = n*(n+1)/2;
-        for(int i=1 ; i<=n ; i++)
+        int count1 = 5;
+        int count2 = 1;
+        for(int i=n ; i>=1 ; i--)
         {
             int c1 = count1;
             int c2 = count2;
-            for(int j=i,j1=n; j<=n && j1>=i ; j++,j1--)
+            for(int j=i,j1=1; j>=1 && j1<=n ; j--,j1++)
             {
                 System.out.print((char)(c1+64));
-                System.out.print((char)(c2+64));
+                System.out.print((char)(c2+96));
                 System.out.print("\t");
-                c1 -= j;
-                c2 -= j1;
+                c1 --;
+                c2 += n-i+j1;
             }
             System.out.println();
-            count1 -=i+1 ;
-            count2 -- ;
+            count1 +=i-1 ;
+            count2 += n-i+2;
         }
 
     }
