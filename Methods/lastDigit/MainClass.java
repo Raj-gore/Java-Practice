@@ -5,4 +5,4 @@ class MainClass
         Demo d1 = new Demo();
         System.out.println(d1.lastDigit(445327));
     }
-}+0
+}
