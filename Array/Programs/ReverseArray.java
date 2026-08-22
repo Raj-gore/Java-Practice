@@ -3,16 +3,14 @@ class ReverseArray
 {
 	public static void main(String args[])
 	{
+
 		int a[] = {10,20,30,40,50};
-		int i = 0 , j = a.length-1 ;
-		while(i<j)
+		for(int i = 0 ; i < a.length/2 ; i++)
 		{
-			int temp = a[i];
-			a[i] = a[j];
-			a[j] = temp;
-			i++;
-			j--;	
-		}	
-		System.out.println(Arrays.toString(a));
+			a[i] =a[i] + a[a.length-1-i];
+			a[a.length-1-i] = a[i] - a[a.length-1-i];
+			a[i] = a[i] - a[a.length-1-i];
+		}
+		System.out.println(Arrays.toString(a));	
 	}
 }
