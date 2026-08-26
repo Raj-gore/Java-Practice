@@ -1,4 +1,4 @@
-//WAP to merge 2 elements into a single array.
+//WAP to  merge 2 elements into a single array with Sorting .
 
 import java.util.Arrays;
 class MergeTwoelementsIntoSingleArray
