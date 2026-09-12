@@ -1,3 +1,5 @@
+//input-hello i am java developer
+//output- hlleo i ma jvaa dvlpreeoe
 class  SeparateVowelsAndConsonantsInWords
 
 {
